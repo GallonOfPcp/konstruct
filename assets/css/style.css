@@ -10,31 +10,169 @@ body {
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
+p {
+  margin: 0;
+  padding: 0;
+}
 .container {
   width: 100%;
+  height: 100%;
   max-width: 941px;
   margin: 0 auto;
+}
+.link {
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 
  /* Header */
-h1 {
-  font-family: 'Bebas Neue';
-  font-size: 60px;
-  line-height: 70px;
-  letter-spacing: 5.7px;
-}
-h2 {
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 22px;
-}
+
 .header {
   width: 100%;
-  height: 90vh;
+  height: 59.19vh;
+  color: #ffffff;
+  text-align: center;
   background: url("../img/header-bg.png") center no-repeat;
   background-size: cover;
 }
-.intro {
+.header-inner {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-logo {
+  margin-top: 40px;
+}
+.title-text {
+  width: 100%;
+  max-width: 594px;
+  margin-top: 88px;
+}
+.title {
+  font-family: 'Bebas Neue';
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 70px;
+  letter-spacing: 5.7px;
+  color: #ffffff;
+  margin-bottom: -5px;
+  padding-left: 13px;
+}
+.sub-title {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0.5px;
+}
+.scroll-down-text {
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 15px;
+  letter-spacing: 3.7px;
+  text-transform: uppercase;
+  padding-bottom: 70px;
+}
 
+/* Navigation */
+.nav {
+  height: 5vh;
+  border-bottom: 1px solid #e6e6e6;
+}
+.nav-inner {
+  height: 65px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-links {
+  margin-bottom: 2px;
+}
+.nav-link {
+  color: #48555B;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 1px;
+  margin-right: 34px;
+  transition: color 0.2s;
+}
+.nav-link:last-child {
+  margin-right: 0;
+}
+.nav-link:hover {
+  color: #00A4E5;
+}
+
+
+/* Story */
+
+.story {
+  height: 35.81vh;
+}
+.story-inner {
+  display: flex;
+  justify-content: space-between;
+}
+.story-title {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 2.3px;
+  text-align: center;
+  padding-top: 56px;
+}
+.story-title::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 2px;
+  background-color: #00a4e5;
+  margin: 11px auto 54px;
+}
+.story-text {
+  width: 43.8%;
+  max-width: 412px;
+}
+.story-main-text {
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: 0.18px;
+  margin-bottom: 32px;
+}
+.story-sub-text {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0.18px;
+}
+.story-pictures {
+  margin-top: 30px;
+}
+.story-picture {
+  display: inline-block;
+  width: 140px;
+  height: 224px;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 29px;
+  letter-spacing: 0.19px;
+  color: #ffffff;
+  margin-right: 15px;
+  padding-top: 16px;
+  padding-left: 14px;
+}
+.story-picture-first {
+  background: url("../img/weplan.png") center no-repeat;
+}
+.story-picture-second {
+  background: url("../img/wemanage.png") center no-repeat;
+}
+.story-picture-third {
+  background: url("../img/webuild.png") center no-repeat;
+  margin-right: 0;
 }
