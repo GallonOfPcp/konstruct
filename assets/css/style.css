@@ -345,6 +345,7 @@ p {
   height: 240px;
   background-color: #141a20;
   padding-top: 43px;
+  margin-top: -2px;
 }
 .footer-info-text {
   display: flex;
@@ -442,6 +443,7 @@ p {
   margin-right: 22px;
 }
 
+/* Footer Bottom */
 
 .footer-bottom {
   font-size: 11px;
@@ -452,8 +454,9 @@ p {
   height: 50px;
   background-color: #171819;
   color: #ffffff;
+  margin-top: -2px;
 }
 .footer-bottom-text {
-  padding-top: 10px;
+  padding-top: 26px;
   margin-left: 10px;
 }
