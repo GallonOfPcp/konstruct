@@ -264,7 +264,7 @@ p {
   width: 100%;
   background: url("../img/build-bg.png") center no-repeat;
   background-size: cover;
-  height: 38.5vh;
+  height: 498px;
   display: flex;
   flex-direction: column;
   justify-content: center;
