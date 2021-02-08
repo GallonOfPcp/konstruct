@@ -465,7 +465,7 @@ p {
 
 @media (max-width: 575px) {
   .header {
-    height: 747px;
+    height: 92vh;
   }
   .header-logo {
     margin-top: 30px;
@@ -482,7 +482,9 @@ p {
     padding-bottom: 50px;
   }
 
-
+  .nav {
+    height: 8vh;
+  }
   .nav-inner {
     justify-content: space-around;
   }
