@@ -272,6 +272,7 @@ p {
   justify-content: center;
   align-items: center;
   margin-top: 99px;
+  overflow: hidden;
 }
 .get-in-touch-text {
   width: 350px;
