@@ -303,6 +303,7 @@ p {
   height: 102px;
   background-color: #171819;
   margin-top: -2px;
+  overflow: hidden;
 }
 .newsletter-text {
   font-weight: 600;
