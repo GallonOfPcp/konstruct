@@ -130,7 +130,7 @@ p {
 /* Story */
 
 .story {
-  height: 465px;
+  min-height: 465px;
 }
 .story-inner {
   display: flex;
