@@ -483,7 +483,9 @@ p {
   }
 
 
-
+  .nav-inner {
+    justify-content: space-around;
+  }
   .nav-logo {
     display: none;
   }
