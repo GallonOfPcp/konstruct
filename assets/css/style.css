@@ -135,6 +135,7 @@ p {
 .story-inner {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .story-title {
   text-transform: uppercase;
@@ -345,6 +346,7 @@ p {
 }
 .footer-info-text {
   display: flex;
+  overflow: hidden;
 }
 
 
@@ -455,9 +457,10 @@ p {
 .footer-bottom-text {
   padding-top: 22px;
   margin-left: 10px;
+
 }
 
 
 @media (max-width: 575px) {
-  
+
 }
