@@ -108,6 +108,9 @@ p {
   align-items: center;
 }
 .nav-links {
+  width: 42%;
+  display: flex;
+  justify-content: space-between;
   margin-bottom: 2px;
 }
 .nav-link {
@@ -275,7 +278,7 @@ p {
   margin-top: 154px;
 }
 .get-in-touch-text {
-  width: 350px;
+  max-width: 350px;
   text-align: center;
 }
 .get-in-touch-title {
@@ -462,6 +465,35 @@ p {
 
 }
 
+@media (max-width: 830px) {
+  .nav-links {
+    width: 52%;
+  }
+
+
+
+  .story-text {
+    width: 100%;
+    max-width: none;
+    text-align: center;
+  }
+  .story-pictures {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .features-title::after {
+    margin: 11px auto 20px;
+  }
+  .features-top {
+    display: block;
+    text-align: center;
+  }
+  .features-text {
+    width: 100%;
+    margin: 0 auto 25px;
+  }
+}
 
 @media (max-width: 575px) {
   .header {
@@ -482,14 +514,13 @@ p {
     padding-bottom: 50px;
   }
 
-  .nav {
-    height: 8vh;
-  }
-  .nav-inner {
-    justify-content: space-around;
-  }
+
+
   .nav-logo {
     display: none;
+  }
+  .nav-links {
+    width: 100%
   }
   .nav-link {
     font-size: 13px;
@@ -504,19 +535,14 @@ p {
   .story-title::after {
     margin-bottom: 30px;
   }
-  .story-text {
-    width: 100%;
-    text-align: center;
-  }
   .story-main-text {
     font-size: 16px;
     margin-bottom: 20px;
   }
   .story-picture {
-    width: 107px;
+    width: 30%;
     height: 171px;
     font-size: 18px;
-    margin-right: 10px;
     padding-top: 9px;
     padding-left: 12px;
   }
@@ -528,17 +554,8 @@ p {
   .features {
     padding-top: 42px;
   }
-  .features-top {
-    display: block;
-    text-align: center;
-  }
-  .features-title::after {
-    margin: 11px auto 20px;
-  }
   .features-text {
     font-size: 12px;
-    margin-right: 0;
-    margin-bottom: 25px;
   }
   .features-panels {
     margin-top: 50px;
@@ -566,6 +583,9 @@ p {
   .newsletter-text {
     font-size: 20px;
     margin: 10px auto 0;
+  }
+  .newsletter-form {
+    margin: 0 auto 1px;
   }
   .newsletter-input {
     height: 35px;
@@ -596,7 +616,7 @@ p {
     justify-content: space-between;
   }
   .footer-links-column {
-    width: 23%;
+    width: 80px;
     text-align: left;
   }
   .contacts {
@@ -608,5 +628,23 @@ p {
   }
   .socials i:last-child {
     margin-right: 0;
+  }
+
+
+  .footer-bottom-text {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 320px) {
+  .nav-link {
+    font-size: 12px;
+    margin-right: 8px;
+  }
+  .story-picture {
+    width: 29%;
+    height: 135px;
+    font-size: 15px;
+    line-height: 24px;
   }
 }
