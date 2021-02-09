@@ -495,7 +495,7 @@ p {
   }
 }
 
-@media (max-width: 575px) {
+@media (max-width: 650px) {
   .header {
     height: 92vh;
   }
