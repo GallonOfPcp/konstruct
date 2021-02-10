@@ -167,6 +167,9 @@ p {
   letter-spacing: 0.18px;
   margin-bottom: 32px;
 }
+.story-main-text span {
+  color: #00A4E5;
+}
 .story-sub-text {
   font-size: 13px;
   font-weight: 400;
@@ -418,6 +421,10 @@ p {
   color: #ffffff;
   text-decoration: none;
   text-transform: uppercase;
+  transition: color 0.2s;
+}
+.footer-link:hover {
+  color: #00A4E5;
 }
 
 
@@ -444,6 +451,11 @@ p {
 }
 .socials i {
   margin-right: 22px;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+.socials i:hover {
+  color: #00A4E5;
 }
 
 /* Footer Bottom */
@@ -540,11 +552,10 @@ p {
     margin-bottom: 20px;
   }
   .story-picture {
-    width: 30%;
     height: 171px;
     font-size: 18px;
-    padding-top: 9px;
-    padding-left: 12px;
+    padding-top: 3%;
+    padding-left: 3%;
   }
   .story-picture-third {
     margin-right: 0;
@@ -582,7 +593,7 @@ p {
   }
   .newsletter-text {
     font-size: 20px;
-    margin: 10px auto 0;
+    margin: 10px auto 10px;
   }
   .newsletter-form {
     margin: 0 auto 1px;
